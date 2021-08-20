@@ -5,7 +5,7 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Latitude with an Attitude</title>
+  <title>Latitude vs. Wind Speed</title>
 
   <!-- Bring in bootstrap stylesheet -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -50,20 +50,21 @@
 
 
       <!-- Content Section -->
-    <div class="container">
+      <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-12">
             <!-- Left box  -->
             <div class="box">
-              <h3 class="title">Summary: Latitude vs. X</h3>
+              <h3 class="title">Wind Speed</h3>
               <hr>
-              <img src="../Images/Latitude Vs Max Temp.png" class="vizualization rounded float-left" alt="Max Temperature Graph">
-              <p style="color: black;">As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered. </p>
-              <p style="color: black;">For the weather comparison, temperature, cloudiness, wind speed, and humidity datas are used. You can see more details on our drop down menu on the right top of the site.</p>
+              <img src="Resources/assets/images/Fig4.png" class="vizualization rounded float-left" alt="Wind Speed vs. Lat Plot"> <br><br>
+                <p> 
+                   As can be seen from the plot, Latitude and Wind Speed are not strongly correlated.
+                However, Wind Speed increases with higher Temperature as we move closer to the Equator. </p><br><br>
             </div>
           </div>
 
-       <div class="col-lg-4 col-sm-12">
+       <div class="col-lg-4 col-md-12">
           <!-- Right Box -->
           <div class="box">
             <h5 class="title">Visualizations</h5>
@@ -73,12 +74,12 @@
               <div class="row" style="padding-bottom: 30px;">
                 <div class="col-lg-5 col-md-5">
                   <a href="MaxTemp.html">
-                    <img class="panel" src="../Resources/assets/images/Fig1.png" alt="Max Temperature Image">
+                    <img class="panel" src="Resources/assets/images/Fig1.png" alt="Max Temperature Image">
                   </a>
                 </div>
                 <div class="col-lg-5 col-md-5">
                   <a href="Humidity.html">
-                    <img class="panel" src="../Resources/assets/images/Fig2.png" alt="Humidity Graph">
+                    <img class="panel" src="Resources/assets/images/Fig2.png" alt="Humidity Graph">
                   </a>
                 </div>
               </div>
@@ -86,12 +87,12 @@
               <div class="row" style="padding-bottom: 30px;">
                 <div class="col-lg-5 col-md-5">
                   <a href="cloudiness.html">
-                    <img class="panel" src="../Resources/assets/images/Fig3.png" alt="Cloudiness Graph">
+                    <img class="panel" src="Resources/assets/images/Fig3.png" alt="Cloudiness Graph">
                   </a>
                 </div>
                 <div class="col-lg-5 col-md-5">
                   <a href="wind_speed.html">
-                    <img class="panel" src="../Resources/assets/images/Fig4.png" alt="Wind Speed Graph">
+                    <img class="panel active" src="Resources/assets/images/Fig4.png" alt="Wind Speed Graph">
                   </a>
                 </div>
   
@@ -109,33 +110,7 @@
     </footer>">
                    
 
-  <!-- Rows function in containers (grid created). -->
-
-  <!--<div class="navigation">
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">Latitude</a>
-          </div>
-          <div class="dropdown">
-            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
-                Plots
-            <span class="caret"></span></button>
-            <ul class="dropdown-menu">
-              <li><a href="#">Max Temperature</a></li>
-              <li><a href="#">Humidity</a></li>
-              <li><a href="#">Cloudiness</a></li>
-              <li><a href="#">Wind Speed</a></li>
-            </ul>
-          </div>
-         
-            <a class="nav-link" href="comparisons.html">Comparison</a>
-        
-          
-            <a class="nav-link" href="data.html">Data</a>
-          
-      </nav>
-  </div>-->
+ 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
